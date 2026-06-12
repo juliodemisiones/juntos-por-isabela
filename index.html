@@ -121,6 +121,22 @@
 
   footer{text-align:center;padding:34px 22px 54px;color:var(--texto-suave);font-size:.85rem}
   footer .redes{margin-bottom:10px;font-weight:700;color:var(--rosa-acento)}
+
+  /* palabras de la mama */
+  section.mama{max-width:680px;margin:30px auto;padding:0 22px}
+  .mama-card{background:var(--crema);border-radius:26px;box-shadow:var(--sombra);
+    padding:40px 34px;position:relative;overflow:hidden}
+  .mama-card::before{content:"\201C";position:absolute;top:-10px;left:18px;
+    font-family:'Fraunces',serif;font-size:6rem;color:var(--rosa-suave);line-height:1}
+  .mama-card .et{position:relative;text-align:center;text-transform:uppercase;
+    letter-spacing:.28em;font-size:.72rem;font-weight:700;color:var(--rosa-acento);
+    margin-bottom:18px}
+  .mama-card p{font-family:'Fraunces',serif;font-size:1.12rem;line-height:1.75;
+    color:var(--texto);margin:0 0 1em;position:relative}
+  .mama-card p .resalta{color:var(--rosa-acento);font-weight:600}
+  .mama-card .firma{font-family:'Caveat',cursive;font-size:1.9rem;color:var(--verde-titulo);
+    text-align:right;margin-top:10px}
+
 </style>
 </head>
 <body>
@@ -261,6 +277,17 @@
     <p class="cierre">Gracias por ser parte<br>de la esperanza de Isabella 💛</p>
   </section>
 </div>
+
+
+<section class="mama">
+  <div class="mama-card">
+    <div class="et">Palabras de su mamá</div>
+    <p>Isabella es una niña muy alegre, con muchas ganas y voluntad para hacer todo y salir adelante. Siempre se predispuso a cada terapia y, a pesar de los momentos difíciles, fue superando obstáculos y evolucionando favorablemente.</p>
+    <p>Cuando recibimos su diagnóstico, fue desalentador: el neurólogo nos dijo que había que ver si lograba sentarse. Pero Isabella nos demuestra constantemente que <span class="resalta">un diagnóstico no es destino</span>.</p>
+    <p>Por eso también queremos destacar el trabajo de todas las personas que han trabajado con ella durante estos años. Cada avance suyo también es de ellos.</p>
+    <div class="firma">— Doris, mamá de Isabella</div>
+  </div>
+</section>
 
 <footer>
   <div class="redes">Seguinos en Facebook e Instagram: juntos.por.isabela</div>
